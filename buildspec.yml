@@ -8,6 +8,7 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+      - dir target
 artifacts:
   files:
     - target/order-service.jar
